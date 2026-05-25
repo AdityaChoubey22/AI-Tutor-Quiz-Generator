@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files
+.env
+.env.*
+
+# Uvicorn/Server logs
+*.log
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Cache and lock files
+*.db
+*.sqlite3
+*.lock
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Frontend - if using node modules
+frontend/node_modules/
+frontend/dist/
+frontend/.parcel-cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Pydantic compiled models (if using mypyc)
+backend/**/__pydantic_model__.py
+
+# AI model files or output (if generated at runtime)
+*.bin
+*.pt
+*.ckpt
+*.onnx
+*.sav
+*.joblib
+
+# Misc
+logs/
